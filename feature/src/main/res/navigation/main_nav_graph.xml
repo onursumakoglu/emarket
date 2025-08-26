@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/productListFragment">
+    <fragment
+        android:id="@+id/productListFragment"
+        android:name="com.okamiko.feature.presentation.productList.ProductListFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_productListFragment_to_productDetailFragment"
+            app:destination="@id/productDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/basketFragment"
+        android:name="com.okamiko.feature.presentation.basket.BasketFragment"
+        android:label="BasketFragment" />
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.okamiko.feature.presentation.productDetail.ProductDetailFragment"
+        android:label="ProductDetailFragment" >
+        <action
+            android:id="@+id/action_productDetailFragment_to_productListFragment"
+            app:destination="@id/productListFragment" />
+        <argument
+            android:name="product"
+            app:argType="com.okamiko.feature.data.remote.dto.ProductDto" />
+    </fragment>
+</navigation>

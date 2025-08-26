@@ -1,0 +1,18 @@
+<resources>
+    <string name="filters_title">Filters:</string>
+    <string name="filter_title">Filter</string>
+    <string name="select_filter_title">Select Filter</string>
+    <string name="add_basket_title">Add to Cart</string>
+    <string name="total_title">Total:</string>
+    <string name="complete_title">Complete</string>
+    <string name="empty_basket_message">Sepetinize Ürün Ekleyin, Alışverişe Başlayın</string>
+    <string name="sort_by_filter_title">Sort By</string>
+    <string name="old_new_filter_title">Old to new</string>
+    <string name="new_old_filter_title">New to old</string>
+    <string name="high_low_filter_title">Price high to low</string>
+    <string name="low_high_filter_title">Price low to high</string>
+    <string name="brand_filter_title">Brand</string>
+    <string name="model_filter_title">Model</string>
+    <string name="apply_title">Apply</string>
+    <string name="price_title">Price:</string>
+</resources>
